@@ -1,0 +1,7 @@
+D:\workspace\VNUIS-INS3107\vnuis-ins310701\lab3\Account\bin\Debug\Account.exe.config
+D:\workspace\VNUIS-INS3107\vnuis-ins310701\lab3\Account\bin\Debug\Account.exe
+D:\workspace\VNUIS-INS3107\vnuis-ins310701\lab3\Account\bin\Debug\Account.pdb
+D:\workspace\VNUIS-INS3107\vnuis-ins310701\lab3\Account\obj\Debug\Account.csproj.AssemblyReference.cache
+D:\workspace\VNUIS-INS3107\vnuis-ins310701\lab3\Account\obj\Debug\Account.csproj.CoreCompileInputs.cache
+D:\workspace\VNUIS-INS3107\vnuis-ins310701\lab3\Account\obj\Debug\Account.exe
+D:\workspace\VNUIS-INS3107\vnuis-ins310701\lab3\Account\obj\Debug\Account.pdb
