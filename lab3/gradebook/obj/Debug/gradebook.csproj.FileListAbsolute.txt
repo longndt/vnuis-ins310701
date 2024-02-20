@@ -1,0 +1,7 @@
+D:\workspace\VNUIS-INS3107\vnuis-ins310701\lab3\gradebook\bin\Debug\gradebook.exe.config
+D:\workspace\VNUIS-INS3107\vnuis-ins310701\lab3\gradebook\bin\Debug\gradebook.exe
+D:\workspace\VNUIS-INS3107\vnuis-ins310701\lab3\gradebook\bin\Debug\gradebook.pdb
+D:\workspace\VNUIS-INS3107\vnuis-ins310701\lab3\gradebook\obj\Debug\gradebook.csproj.AssemblyReference.cache
+D:\workspace\VNUIS-INS3107\vnuis-ins310701\lab3\gradebook\obj\Debug\gradebook.csproj.CoreCompileInputs.cache
+D:\workspace\VNUIS-INS3107\vnuis-ins310701\lab3\gradebook\obj\Debug\gradebook.exe
+D:\workspace\VNUIS-INS3107\vnuis-ins310701\lab3\gradebook\obj\Debug\gradebook.pdb
