@@ -17,7 +17,7 @@ namespace ArrayListDemo
             Console.WriteLine("This collection has {0} items.", strArray.Count);
             Console.WriteLine();
             // Add a new item and display current count.
-            strArray.Add(4); // Nongeneric => not type safe.
+            strArray.Add(2024); // Nongeneric => not type safe.
             Console.WriteLine("This collection has {0} items.", strArray.Count);
             // Display contents.
             foreach (string s in strArray)

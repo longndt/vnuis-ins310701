@@ -28,6 +28,9 @@ namespace List
             Console.WriteLine("\n->Inserting new person.");
             people.Insert(2, new Person { FirstName = "Maggie", LastName = "Simpson", Age = 2 });
             Console.WriteLine("Items in list: {0}", people.Count);
+
+            people.
+
             // Copy data into a new array.
             Person[] arrayOfPeople = people.ToArray();
             for (int i = 0; i < arrayOfPeople.Length; i++)
