@@ -10,5 +10,7 @@ namespace StudentMark
     {
         public string Name { get; set; }
         public int Mark { get; set; }
+        public string Gender { get; set; }  
+
     }
 }
