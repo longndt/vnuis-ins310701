@@ -1,7 +1,6 @@
-﻿using DocumentFormat.OpenXml.Bibliography;
-using System;
+﻿using System;
 using System.Data.Common;
-using System.Data.SqlClient;  
+using System.Data.SqlClient;
 
 namespace ADOTest
 {
@@ -27,29 +26,23 @@ namespace ADOTest
                 */
                 using (SqlConnection connection = new SqlConnection("Server=LG-GRAM;Database=AutoLot;Trusted_Connection=True;"))
                 {
-                    // Open DB connection
+                    // Open connection
                     connection.Open();
                     // Make a command
                     DbCommand cmd = connection.CreateCommand();
-                    // Set query
                     cmd.CommandText = "SELECT * FROM Inventory";
-                    // execute query 
                     using (DbDataReader dataReader = cmd.ExecuteReader())
                     {
-                        // using loop to traverse each record in table
                         while (dataReader.Read())
                         {
-                            // display data to console
                             Console.WriteLine($"Car {dataReader["CarId"]} is a {dataReader["Make"]}.");
                         }
                     }
-                    // Close DB connection
-                    connection.Close();
                 }
             }
             catch (Exception ex)
             {
-                //display DB connection error
+                //display connection error
                 Console.WriteLine($"An error occurred: {ex.Message}");
             }
         }
