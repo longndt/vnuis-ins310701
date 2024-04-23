@@ -137,6 +137,7 @@
     <Content Include="Content\bootstrap.rtl.css" />
     <Content Include="Content\bootstrap.rtl.min.css" />
     <Content Include="Content\Site.css" />
+    <Content Include="Customers.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
@@ -245,6 +246,13 @@
     <Compile Include="Customer.cs">
       <DependentUpon>AutoLotModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="Customers.aspx.cs">
+      <DependentUpon>Customers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Customers.aspx.designer.cs">
+      <DependentUpon>Customers.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -272,7 +280,6 @@
     <Compile Include="Inventory.cs">
       <DependentUpon>AutoLotModel.tt</DependentUpon>
     </Compile>
-    <Compile Include="InventoryRepo.cs" />
     <Compile Include="Order.cs">
       <DependentUpon>AutoLotModel.tt</DependentUpon>
     </Compile>
