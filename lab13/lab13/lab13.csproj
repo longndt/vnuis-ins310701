@@ -9,7 +9,7 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{8E92DA7D-78B9-4F43-A5F4-BF37F4152532}</ProjectGuid>
+    <ProjectGuid>{658331E0-2C9F-4DA4-BE50-0B3A0A842591}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -19,7 +19,7 @@
     <MvcBuildViews>false</MvcBuildViews>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
-    <IISExpressSSLPort>44339</IISExpressSSLPort>
+    <IISExpressSSLPort>44377</IISExpressSSLPort>
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
@@ -176,21 +176,13 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202405140646383_InitialCreate.cs" />
-    <Compile Include="Migrations\202405140646383_InitialCreate.Designer.cs">
-      <DependentUpon>202405140646383_InitialCreate.cs</DependentUpon>
+    <Compile Include="Migrations\202405160919105_InitialCreate.cs" />
+    <Compile Include="Migrations\202405160919105_InitialCreate.Designer.cs">
+      <DependentUpon>202405160919105_InitialCreate.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202405140649156_FirstMigration.cs" />
-    <Compile Include="Migrations\202405140649156_FirstMigration.Designer.cs">
-      <DependentUpon>202405140649156_FirstMigration.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202405140710549_SecondMigration.cs" />
-    <Compile Include="Migrations\202405140710549_SecondMigration.Designer.cs">
-      <DependentUpon>202405140710549_SecondMigration.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202405140725083_ThirdMigration.cs" />
-    <Compile Include="Migrations\202405140725083_ThirdMigration.Designer.cs">
-      <DependentUpon>202405140725083_ThirdMigration.cs</DependentUpon>
+    <Compile Include="Migrations\202405160956083_Seeding.cs" />
+    <Compile Include="Migrations\202405160956083_Seeding.Designer.cs">
+      <DependentUpon>202405160956083_Seeding.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -218,6 +210,7 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\bootstrap.rtl.css" />
     <Content Include="Content\bootstrap.rtl.min.css" />
+    <Content Include="Content\images\db.png" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
@@ -314,17 +307,11 @@
     <Content Include="Scripts\jquery-3.4.1.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202405140646383_InitialCreate.resx">
-      <DependentUpon>202405140646383_InitialCreate.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202405160919105_InitialCreate.resx">
+      <DependentUpon>202405160919105_InitialCreate.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202405140649156_FirstMigration.resx">
-      <DependentUpon>202405140649156_FirstMigration.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202405140710549_SecondMigration.resx">
-      <DependentUpon>202405140710549_SecondMigration.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202405140725083_ThirdMigration.resx">
-      <DependentUpon>202405140725083_ThirdMigration.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202405160956083_Seeding.resx">
+      <DependentUpon>202405160956083_Seeding.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
@@ -343,9 +330,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>62706</DevelopmentServerPort>
+          <DevelopmentServerPort>51145</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>https://localhost:44339/</IISUrl>
+          <IISUrl>https://localhost:44377/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
